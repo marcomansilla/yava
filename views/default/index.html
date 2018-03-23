@@ -1,0 +1,19 @@
+{{extend 'layout.html'}}
+
+{{block header}}
+<center style="background-color: #333; color:white; padding:30px">
+    <h1>Yet Another Vue APP</h1>
+</center>
+{{end}}
+
+<div id="index" class="container">
+    <div class="well">
+	<h3>${message}</h3>
+	<hr/>
+	<test-component></test-component>
+    </div>
+</div>
+
+{{block page_js}}
+<script src="{{=URL('static','vue/index.min.js')}}" type="module"></script>
+{{end}}
