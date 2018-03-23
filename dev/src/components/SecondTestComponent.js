@@ -1,6 +1,6 @@
 export default{
     template:`
-    <div class="card">
+    <div class="card bg-faded">
 	<h3> This comes from a second test component</h3>
 
 	<p>{{lorem}}</p>
