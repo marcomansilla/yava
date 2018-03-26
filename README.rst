@@ -27,6 +27,15 @@ The grunt task by default watches updates, deletions and new files, main vue fil
 
 See the simple example files for more details about importing and exporting data.
 
+Simple testing
+--------------
+
+To test file editing without grunt just
+
+``git checkout simplejs``
+
+that branch has basic setting without minification nor grunt stuff.
+
 Support
 -------
 
