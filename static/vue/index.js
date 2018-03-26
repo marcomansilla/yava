@@ -1,5 +1,5 @@
-import TestComponent from './components/TestComponent.min.js';
-import SecondTestComponent from './components/SecondTestComponent.min.js';
+import TestComponent from './components/TestComponent.js';
+import SecondTestComponent from './components/SecondTestComponent.js';
 
 var index = new Vue({
     components:{
